@@ -8,13 +8,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavigationComponent } from './navigation/navigation.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { AboutComponent } from './about/about.component';
+import { SideButtonsComponent } from './side-buttons/side-buttons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     IntroductionComponent,
-    AboutComponent
+    AboutComponent,
+    SideButtonsComponent
   ],
   imports: [
     BrowserModule,
