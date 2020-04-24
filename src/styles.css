@@ -29,6 +29,10 @@ html {
   color: #D8C3A4;
 }
 
+.navbar-brand:hover {
+  color: #E88073;
+}
+
 .nav-link {
   font-size: larger;
   color: #D8C3A4;
@@ -50,6 +54,12 @@ html {
 }
 
 .btn-outline-primary:hover {
+  color: #EAE8DC;
+  background-color: #E88073;
+  border-color: #E88073;
+}
+
+.btn-outline-primary:active {
   color: #EAE8DC;
   background-color: #E88073;
   border-color: #E88073;
