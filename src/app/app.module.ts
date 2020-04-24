@@ -9,6 +9,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { AboutComponent } from './about/about.component';
 import { SideButtonsComponent } from './side-buttons/side-buttons.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SideButtonsComponent } from './side-buttons/side-buttons.component';
     NavigationComponent,
     IntroductionComponent,
     AboutComponent,
-    SideButtonsComponent
+    SideButtonsComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
