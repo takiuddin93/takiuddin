@@ -90,6 +90,25 @@ html {
   letter-spacing: 0px;
 }
 
+.about {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.about::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 256px;
+  background-color: #D8C3A4;
+  position: relative;
+  top: 2px;
+  margin-left: 20px;
+}
 
 /*Image Taki Uddin*/
 
@@ -100,7 +119,7 @@ html {
   opacity: 0.32;
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
   position: relative;
-  background-color: rgb(100, 255, 218);
+  background-color: #E88073;
   margin-left: -20px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   border-radius: 3px;
@@ -111,7 +130,7 @@ html {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: rgb(10, 25, 47);
+  background-color: #E88073;
   mix-blend-mode: screen;
 }
 
@@ -121,7 +140,7 @@ html {
   z-index: -1;
   border-width: 2px;
   border-style: solid;
-  border-color: rgb(100, 255, 218);
+  border-color: #E88073;
   border-image: initial;
 }
 
