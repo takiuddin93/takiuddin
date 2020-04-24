@@ -129,7 +129,7 @@ html {
   left: 40px;
   right: auto;
   z-index: 10;
-  color: rgb(168, 178, 209);
+  color: #D8C3A4;
 }
 
 .left-list {
@@ -147,7 +147,7 @@ html {
   display: block;
   width: 1px;
   height: 90px;
-  background-color: rgb(168, 178, 209);
+  background-color: #D8C3A4;
   margin: 0px auto;
 }
 
@@ -163,6 +163,10 @@ ul {
 
 .social {
   padding: 10px;
+}
+
+.social:hover {
+  color: #E88073;
 }
 
 a {
@@ -197,7 +201,7 @@ svg:not(:root) {
   left: auto;
   right: 40px;
   z-index: 10;
-  color: rgb(168, 178, 209);
+  color: #D8C3A4;
 }
 
 .right-list {
@@ -213,7 +217,7 @@ svg:not(:root) {
   display: block;
   width: 1px;
   height: 90px;
-  background-color: rgb(168, 178, 209);
+  background-color: #D8C3A4;
   margin: 0px auto;
 }
 
@@ -225,6 +229,10 @@ svg:not(:root) {
   writing-mode: vertical-rl;
   margin: 20px auto;
   padding: 10px;
+}
+
+.email:hover {
+  color: #E88073;
 }
 
 a {
