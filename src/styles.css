@@ -100,7 +100,8 @@ html {
   letter-spacing: 0px;
 }
 
-.about {
+.about-text,
+.experience-text {
   position: relative;
   display: flex;
   -webkit-box-align: center;
@@ -109,7 +110,8 @@ html {
   white-space: nowrap;
 }
 
-.about::after {
+.about-text::after,
+.experience-text::after {
   content: "";
   display: block;
   height: 1px;
@@ -190,7 +192,7 @@ html {
   content: "";
   display: block;
   width: 1px;
-  height: 90px;
+  height: 128px;
   background-color: #D8C3A4;
   margin: 0px auto;
 }
@@ -260,7 +262,7 @@ svg:not(:root) {
   content: "";
   display: block;
   width: 1px;
-  height: 90px;
+  height: 128px;
   background-color: #D8C3A4;
   margin: 0px auto;
 }
@@ -367,7 +369,7 @@ li {
   text-decoration: none;
   padding: 0px 20px 2px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-  border-left: 2px solid #C6C6C4;
+  border-left: 1px solid #C6C6C4;
 }
 
 .name-inactive {
@@ -388,7 +390,7 @@ li {
   text-decoration: none;
   padding: 0px 20px 2px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-  border-left: 2px solid #C6C6C4;
+  border-left: 1px solid #C6C6C4;
 }
 
 button {
@@ -410,6 +412,6 @@ button {
   z-index: 10;
   transform: translateY(0px);
   background: #E88073;
-  border-radius: 3px;
+  border-radius: 2px;
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
 }
