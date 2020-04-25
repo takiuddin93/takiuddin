@@ -18,13 +18,45 @@
   margin-left: 20px;
 }
 
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  overflow: hidden;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.skills::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: #E88073;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.skills {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  color: #D8C3A4;
+}
+
 /*Image Taki Uddin*/
 
 .me {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.32;
+  opacity: 0.0;
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
   position: relative;
   background-color: #E88073;
@@ -61,36 +93,4 @@
   height: 100%;
   border-radius: 3px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-}
-
-.skills-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-  overflow: hidden;
-  padding: 0px;
-  margin: 20px 0px 0px;
-  list-style: none;
-}
-
-.skills::before {
-  content: "▹";
-  position: absolute;
-  left: 0px;
-  color: #E88073;
-  font-size: 14px;
-  line-height: 12px;
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-
-.skills {
-  position: relative;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-size: 13px;
-  color: #D8C3A4;
 }
