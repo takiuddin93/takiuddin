@@ -10,6 +10,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { AboutComponent } from './about/about.component';
 import { SideButtonsComponent } from './side-buttons/side-buttons.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExperienceComponent } from './experience/experience.component';
     IntroductionComponent,
     AboutComponent,
     SideButtonsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

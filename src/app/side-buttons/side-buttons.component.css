@@ -37,11 +37,11 @@ ul {
   padding-inline-start: 40px;
 }
 
-.social {
+.side-social {
   padding: 10px;
 }
 
-.social:hover {
+.side-social:hover {
   color: #E88073;
 }
 
